@@ -27,7 +27,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    -name: Check for outdated dependencies
+    - name: Check for outdated dependencies
       run: |
         pip list --outdated
 
